@@ -12,9 +12,7 @@ We want to make it as easy as possible to contribute changes that help the [tick
 * Fork the repository on GitHub.
 * Try to keep your local repository in a "rebased" state.
 * Set the project up.
-  * Install the dependencies running `npm run`.
-  * To create a build in development mode, run `npm run build:dev`.
-  * To create a production bundle, run `npm run build`.
+  * Install the dependencies running `npm i`.
   * Run tests with `npm run test`.
 
 ## Finding things to work on
@@ -31,7 +29,7 @@ Of course, feel free to create a new issue if you think something needs to be ad
 
 * Create a topic branch from where you want to base your work.
   * This is usually the `main|master` branch.
-  * Please avoid working directly on the `main|master` branch.
+  * Please avoid working directly on the `main` branch.
 * Make sure you have added the necessary tests for your changes and make sure all tests pass.
 * Make sure your code is properly formatted by running `npm run lint`.
 

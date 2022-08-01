@@ -3,7 +3,7 @@ name: CI tickspot.js
 on:
   push:
     branches:
-      - master
+      - main
       - 'v*.[0-9]'
   pull_request:
 
@@ -23,6 +23,7 @@ jobs:
   test:
     name: Tests on node 14
 
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
