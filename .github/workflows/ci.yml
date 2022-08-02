@@ -9,7 +9,7 @@ on:
 
 jobs:
   lint:
-    name: Lint on node 14
+    name: Lint
 
     runs-on: ubuntu-latest
     steps:
@@ -17,11 +17,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14.x
-      - name: lint
-        run: npm run lint
+      - run: npm i
+      - run: npm run lint
 
   test:
-    name: Tests on node 14
+    name: Tests
 
     runs-on: ubuntu-latest
     steps:
@@ -29,5 +29,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14.x
-      - name: test
-        run: npm run test
+      - run: npm i
+      - run: npm run test
