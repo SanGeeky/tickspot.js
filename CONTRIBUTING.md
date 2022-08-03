@@ -28,7 +28,7 @@ Of course, feel free to create a new issue if you think something needs to be ad
 ## Making changes
 
 * Create a topic branch from where you want to base your work.
-  * This is usually the `main|master` branch.
+  * This is usually the `main` branch.
   * Please avoid working directly on the `main` branch.
 * Make sure you have added the necessary tests for your changes and make sure all tests pass.
 * Make sure your code is properly formatted by running `npm run lint`.
@@ -41,7 +41,7 @@ Of course, feel free to create a new issue if you think something needs to be ad
 * Submit a pull request.
   * Include a descriptive [commit message][commit-msg].
   * Changes contributed via pull request should focus on a single issue at a time.
-  * Rebase your local changes against the `main|master` branch. Resolve any conflicts that arise.
+  * Rebase your local changes against the `main` branch. Resolve any conflicts that arise.
 
 At this point, you're waiting on us. We like to at least comment on pull requests within three
 business days (typically, one business day). We may suggest some changes, improvements or
